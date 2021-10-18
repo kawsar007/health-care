@@ -1,0 +1,101 @@
+.footer-container {
+  background-color: rgb(29, 29, 28);
+  margin-top: 30px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.footer-title {
+  color: #a9d8f7;
+  margin: 20px auto;
+}
+
+.footer-paragraph {
+  color: #9caac2;
+  font-weight: 200;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.listItem {
+  font-size: 16px;
+  font-weight: 300;
+  color: #9caac2;
+  border-top: 1px solid rgb(80, 67, 67);
+}
+
+/* Form */
+label {
+  color: #9ba0aa;
+}
+
+input {
+  padding: 5px 3px;
+  border: none;
+  background-color: #515359;
+  margin-bottom: 15px;
+}
+
+.primary-btn {
+  padding: 10px 20px;
+  background-color: #4dbed9;
+  color: #fff;
+  border: none;
+}
+
+hr {
+  border: 1px solid #515359;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sub-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sub-footer-left p {
+  color: #705c4e;
+  margin-top: 10px;
+}
+
+.sub-footer-right i {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  color: #9caac2;
+  cursor: pointer;
+}
+
+.sub-footer-right i:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 880px) {
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 5px;
+  }
+}
