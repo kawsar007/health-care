@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../css/utilities.css';
 import './ServicesType.css';
 
 function ServicesType() {
@@ -11,23 +12,28 @@ function ServicesType() {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quis iure, minima impedit quae fuga consequuntur sunt dolor. Quibusdam, corporis?</p>
             </div>
             <div className="card flex">
-                <i className="fas fa-power-off fa-3x"></i>
+            <i class="fas fa-hospital"></i>
+                <h4>Health and Medical</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quis iure, minima impedit quae fuga consequuntur sunt dolor.</p>
             </div>
             <div className="card flex">
-                <i className="fas fa-upload fa-3x"></i>
+            <i className="fas fa-first-aid"></i>
+               <h4>Rehabilitation Center</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
             </div>
             <div className="card flex">
-                <i className="fas fa-database fa-3x"></i>
+            <i className="fas fa-medkit"></i>
+                <h4>Medical Counseling</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div className="card flex">
-                <i className="fas fa-laptop-code fa-3x"></i>
+            <i class="fas fa-user-md"></i>
+               <h4>Qualified Doctors</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div className="card flex">
-                <i className="fas fa-server fa-3x"></i>
+            <i class="fas fa-ambulance"></i>
+                <h4>Emergency Services</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </div>
