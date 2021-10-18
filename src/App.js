@@ -1,9 +1,16 @@
 import './App.css';
+import Announcement from './components/announcement/Announcement';
+import CarouselSlider from './components/carousel/CarouselSlider';
+import Header from './components/header/Header';
+import ServicesType from './components/services-type/ServicesType';
 
 function App() {
   return (
-    <div className="App">
-     <h2>Health Care Website.</h2>
+    <div className="app">
+      <Announcement/>
+      <Header/>
+      <CarouselSlider/>
+      <ServicesType/>
     </div>
   );
 }

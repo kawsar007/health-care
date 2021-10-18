@@ -1,0 +1,47 @@
+.carousel {
+}
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: left;
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.slide-title {
+  color: black;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.slide-desc {
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #f15b5a;
+}
+.carousel-control-next-icon:hover {
+  background-color: red;
+}
+.carousel-control-prev-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #f15b5a;
+}
+.carousel-control-prev-icon:hover {
+  background-color: red;
+}
+.sr-only {
+  display: none;
+}

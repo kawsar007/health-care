@@ -1,0 +1,25 @@
+.announcement {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* padding: 5px 10px; */
+  width: 100%;
+  background-color: #60646d;
+  color: rgb(114, 134, 250);
+  font-weight: 100;
+  font-size: 16px;
+  text-align: center;
+}
+
+.announcement_left p {
+  margin-top: 8px;
+}
+.announcement_right p {
+  margin-top: 8px;
+}
+
+.time {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 200;
+}
