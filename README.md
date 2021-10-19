@@ -1,12 +1,12 @@
 # Getting Started with Create React App
 
-###Website Link: [https://medicalpress-app-fc992.web.app/]
+### Website Link: [https://medicalpress-app-fc992.web.app/]
 
-*This is Health Care related website.
-*Mobile Responsive Website.
-*Firebase Authentication system.
-*Email, Pasword sign up and login system & Google account login system.
-\*Firebase Hosting.
+- This is Health Care related website.
+- Responsive Website.
+- Firebase Authentication system.
+- Email, Pasword sign up and login system & Google account login system.
+- Firebase Hosting.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
