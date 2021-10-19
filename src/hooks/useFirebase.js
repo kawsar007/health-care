@@ -11,14 +11,18 @@ const useFirebase = () => {
 
     
     const auth = getAuth();
+
+    // const signInWithGoogle = () => {
+    //     signInWithPopup(auth, googleProvider)
+    //         .then((result) => {
+    //             setUser(result.user);
+    //         }).catch((error) => {
+
+    //         });
+    // }
+
     const signInWithGoogle = () => {
-
-        signInWithPopup(auth, googleProvider)
-            .then((result) => {
-                setUser(result.user);
-            }).catch((error) => {
-
-            });
+        return signInWithPopup(auth, googleProvider);
     }
 
     const logOut = () => {

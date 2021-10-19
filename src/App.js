@@ -12,6 +12,7 @@ import Doctors from "./pages/doctors/Doctors";
 import Login from "./pages/login/Login";
 import NotFound from "./pages/notFound/NotFound";
 import Services from './pages/services/Services';
+import PrivateRoute from "./privateRoute/PrivateRoute";
 
 function App() {
   return (
@@ -26,12 +27,12 @@ function App() {
           <Route path="/doctors">
             <Doctors />
           </Route>
-          <Route path="/services">
+          <PrivateRoute path="/services">
             <Services />
-          </Route>
-          <Route path="/contact">
+          </PrivateRoute>
+          <PrivateRoute path="/contact">
             <Contact />
-          </Route>
+          </PrivateRoute>
           <Route path="/login">
             <Login />
           </Route>
