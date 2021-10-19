@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <div className="header">
             <div className="header_left">
-                <img src="./images/logo.png" alt="" />
+                <Link to="/"> <img src="./images/logo.png" alt="" /></Link>
             </div>
             <div className="header_right">
                 <Navbar bg="light" variant="light" collapseOnSelect expand="lg">

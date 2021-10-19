@@ -11,6 +11,10 @@
   padding: 40px 20px;
 }
 
+.one {
+  margin-right: 20px;
+}
+
 .footer-title {
   color: #a9d8f7;
   margin: 20px auto;
@@ -78,7 +82,7 @@ hr {
 }
 
 .sub-footer-right i:hover {
-  color: #fff;
+  color: rgb(106, 228, 236);
 }
 
 @media screen and (max-width: 880px) {
