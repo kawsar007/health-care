@@ -15,11 +15,13 @@ function ServicesType() {
             <i class="fas fa-hospital"></i>
                 <h4>Health and Medical</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quis iure, minima impedit quae fuga consequuntur sunt dolor.</p>
+                <button type="button" className="danger-btn">VIEW OUR SERVICES</button>
             </div>
             <div className="card flex">
             <i className="fas fa-first-aid"></i>
                <h4>Rehabilitation Center</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+               
             </div>
             <div className="card flex">
             <i className="fas fa-medkit"></i>

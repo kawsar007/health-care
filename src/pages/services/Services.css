@@ -1,0 +1,46 @@
+.all-services {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #f0f5f7;
+}
+.services-individual {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+}
+
+.services-details img {
+  width: 100%;
+}
+
+.services-info {
+  padding: 30px;
+}
+
+.services-title {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.services-desc {
+  font-weight: 300;
+}
+
+.services-btn {
+  padding: 8px 13px;
+  background-color: #67c9e0;
+  color: white;
+  border: none;
+  font-weight: 500;
+}
+.services-btn:hover {
+  background-color: #f15b5a;
+}
+
+@media screen and (max-width: 960px) {
+  .services-individual {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+}

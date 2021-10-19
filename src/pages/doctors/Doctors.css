@@ -1,0 +1,32 @@
+/* .doctors {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+} */
+.all-doctors {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #f0f5f7;
+}
+
+.individual-doctors {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.doctor-info img {
+  width: 100%;
+}
+.doctor-name {
+  margin: 10px 0;
+}
+.doctor-job {
+  font-size: 16px;
+  color: rgb(226, 124, 28);
+  font-weight: 300;
+}

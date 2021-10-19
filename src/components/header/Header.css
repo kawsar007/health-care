@@ -4,3 +4,12 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+.logoutBtn {
+  padding: 3px 5px;
+  background-color: teal;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin-left: 20px;
+}

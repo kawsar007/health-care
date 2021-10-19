@@ -1,8 +1,11 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 import './Header.css';
 
 const Header = () => {
+    const { user, logOut } = useAuth();
     return (
         <div className="header">
             <div className="header_left">
@@ -11,16 +14,24 @@ const Header = () => {
             <div className="header_right">
                 <Navbar bg="light" variant="light" collapseOnSelect expand="lg">
                     <Container>
-                        <Navbar.Toggle/>
+                        <Navbar.Toggle />
                         <Navbar.Collapse className="me-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#features">Features</Nav.Link>
-                            <Nav.Link href="#pricing">Pricing</Nav.Link>
-                            <Nav.Link href="#features">Features</Nav.Link>
-                            <Nav.Link href="#pricing">Pricing</Nav.Link>
-                            <Navbar.Text>
-                                Sign in as: <a href="#login">Kawsar</a>
-                            </Navbar.Text>
+                            <Nav.Link as={Link} to="/">Home</Nav.Link>
+                            <Nav.Link as={Link} to="/doctors">Doctors</Nav.Link>
+                            <Nav.Link as={Link} to="/services">Services</Nav.Link>
+                            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+                            {
+                                user.email ? (
+                                    <div>
+                                    <Navbar.Text>
+                                        Sign in as: <Link to="/login">{user.displayName}</Link>
+                                    </Navbar.Text>
+                                    <button className="logoutBtn" onClick={logOut} type="button">Logout</button>
+                                    </div>
+                                ) : (<Nav.Link as={Link} to="/login">Login</Nav.Link>)
+                            }
+
+
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
