@@ -28,7 +28,7 @@ const Header = () => {
                                     </Navbar.Text>
                                     <button className="logoutBtn" onClick={logOut} type="button">Logout</button>
                                     </div>
-                                ) : (<Nav.Link as={Link} to="/login">Login</Nav.Link>)
+                                ) : (<Nav.Link as={Link} to="/register">Login</Nav.Link>)
                             }
 
 

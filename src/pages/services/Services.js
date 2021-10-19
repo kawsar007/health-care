@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsArrowRightShort } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 import '../../css/utilities.css';
 import { services } from '../../data.js';
 import './Services.css';
@@ -23,7 +24,7 @@ function Services() {
                                 <div className="services-info">
                                     <h4 className="services-title">{item.title}</h4>
                                     <p className="services-desc">{item.desc}</p>
-                                    <button type="button" className="services-btn">Read More</button>
+                                    <Link to={`/service/${item.id}`} type="button" className="services-btn">Read More</Link>
                                 </div>
                             </div>
                         ))

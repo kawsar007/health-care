@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Carousel } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import { slider } from '../../data.js';
 import './CarouselSlider.css';
 
@@ -18,7 +18,7 @@ function CarouselSlider() {
                             <Carousel.Caption className="carousel-caption">
                                 <h3 className="slide-title">{item.title}</h3>
                                 <p className="slide-desc">{item.desc}</p>
-                                <Button variant="danger">Read More</Button>
+                                <button className="googleBtn">Read More</button>
                             </Carousel.Caption>
                         </Carousel.Item>
                     ))
