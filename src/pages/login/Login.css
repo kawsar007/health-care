@@ -1,0 +1,42 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.login h2 {
+  text-align: center;
+}
+
+.login-form {
+  margin: 30px 100px;
+}
+
+.login-form input {
+  display: block;
+  margin-top: 15px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 300px;
+  background-color: white;
+}
+.submit:hover {
+  background-color: teal;
+  color: white;
+}
+.login-bottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.loginBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

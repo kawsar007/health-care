@@ -47,3 +47,12 @@
 .page-banner img {
   width: 100%;
 }
+
+.googleBtn {
+  padding: 5px 20px;
+  background-color: teal;
+  color: white;
+  font-weight: 400;
+  border: none;
+  border-radius: 4px;
+}

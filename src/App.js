@@ -11,6 +11,7 @@ import Contact from './pages/contact/Contact';
 import Doctors from "./pages/doctors/Doctors";
 import Login from "./pages/login/Login";
 import NotFound from "./pages/notFound/NotFound";
+import Register from "./pages/register/Register";
 import Services from './pages/services/Services';
 import PrivateRoute from "./privateRoute/PrivateRoute";
 
@@ -35,6 +36,9 @@ function App() {
           </PrivateRoute>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/register">
+            <Register />
           </Route>
           <Route path="">
             <NotFound />
