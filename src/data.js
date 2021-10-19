@@ -3,19 +3,19 @@ export const slider = [
         id: 1,
         title: "Medical Services That You Can Trust",
         img: "./images/slider/slide-one.jpg",
-        desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+        desc: "Whether you are seeking a general dentist in Murray Hill or Invisalign teeth straightening in New York City, we can help ease your pain or give you the smile you’ve always wanted.",
     },
     {
         id: 2,
         title: "We Care for you",
         img: "./images/slider/slide-two.jpg",
-        desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+        desc: "At Vitta Dental in Murray Hill, Midtown East, New York City, skilled general and cosmetic dentist, Mehdi Aryan, DMD, has a remarkable aptitude for providing superior",
     },
     {
-        id: 1,
+        id: 3,
         title: "Qualified Staff With Expertise in Services We Offer",
         img: "./images/slider/slide-three.jpg",
-        desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+        desc: "Mehdi Aryan, DMD is a premier Invisalign® provider at Vitta Dental in Murray Hill, Midtown East, New York City.",
     },
 ];
 

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Dental Implants",
+    "img": "./images/services/service-3.jpg",
+    "desc": "Dentistry, also known as dental medicine and oral medicine, is a branch of medicine that consists of the study, diagnosis, prevention, and treatment of diseases, disorders, and conditions of the oral ...",
+    "relatedJob": " Physician; dental assistant; dental technician; dental hygienist; various dental specialists",
+    "edu": " Dental Degree",
+    "employment": " Private practices; Primary care clinics; Hospitals"
+  },
+  {
+    "id": 2,
+    "title": "Blood Bank",
+    "img": "./images/services/service-2.jpg",
+    "desc": "A blood bank is a center where blood gathered as a result of blood donation is stored and preserved for later use in blood transfusion. The term blood bank typically refers to a division of a hospital  ",
+    "relatedJob": "hospital emergency",
+    "edu": " Medical Degree",
+    "employment": " Private practices; Primary care clinics; Hospitals"
+  },
+  {
+    "id": 3,
+    "title": "Medicine Research",
+    "img": "./images/services/service-5.jpg",
+    "desc": "Medical research (or biomedical research), also known as experimental medicine, encompasses a wide array of research, extending from (also called bench science or bench research),",
+    "relatedJob": "hospital laboratory",
+    "edu": " Medical Degree",
+    "employment": " Private practices; Primary care clinics; Hospitals"
+  },
+  {
+    "id": 4,
+    "title": "Pharmaceutical Advice",
+    "img": "./images/services/service-4.jpg",
+    "desc": "Fimea regulates and develops the pharmaceutical sector in Finland and promotes rational use of medicines in order to support the health of the population. We ensure the safety, availability and rationality of medicinal treatments",
+    "relatedJob": "hospital laboratory",
+    "edu": " Pharmacy Degree",
+    "employment": " Private practices; Primary care clinics; Hospitals"
+  },
+  {
+    "id": 5,
+    "title": "Medical Counseling",
+    "img": "./images/services/service-1.jpg",
+    "desc": "The Medical Counselling Committee is an organisation under the Directorate General of Health Services affiliated to the Ministry of Health and Family Welfare, Government of India.",
+    "relatedJob": "Hospital Counseling",
+    "edu": " Medical Degree",
+    "employment": " Private Hospital, Govt Hospital Primary care clinics; Hospitals"
+  },
+  {
+    "id": 6,
+    "title": "Emergency medical services",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfZlcyVRBuy4wxAi2zO1CrLEICU1Ex_R_FgrtHoPBqNFw8Bw5xSWX_7sj-Pu4nBZp2ha4&usqp=CAU",
+    "desc": "Emergency medical services (EMS), also known as ambulance services or paramedic services, are emergency services that provide urgent pre-hospital treatment and stabilisation for serious illness and injuries and transport to definitive care.",
+    "relatedJob": "hospital laboratory",
+    "edu": " Medical Degree",
+    "employment": " Private practices; Primary care clinics; Hospitals"
+  }
+]

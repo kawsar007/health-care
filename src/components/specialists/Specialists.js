@@ -9,7 +9,7 @@ function Specialists() {
         <div className="specialists">
             <div className="specialistsHeader">
                 <h2 className="specialistsTitle">Meet our <span className="text-sep">Medical Specialists</span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                <p>We don't replace your primary doctor, we provide additional care when it's needed most.</p>
             </div>
             <div className="specialists-details">
                 {

@@ -24,7 +24,7 @@ const Header = () => {
                                 user.email ? (
                                     <div>
                                     <Navbar.Text>
-                                        Sign in as: <Link to="/login">{user.displayName}</Link>
+                                        Sign in as: <b>{user.displayName}</b>
                                     </Navbar.Text>
                                     <button className="logoutBtn" onClick={logOut} type="button">Logout</button>
                                     </div>

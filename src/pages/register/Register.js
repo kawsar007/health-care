@@ -20,10 +20,6 @@ function Register() {
             })
     }
 
-    const loginHistory = () => {
-        history.push('/')
-    }
-
     const handleEmail = (e) => {
         setEmail(e.target.value);
     }

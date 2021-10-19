@@ -9,7 +9,6 @@ import Home from './components/Home';
 import AuthProvider from "./context/AuthProvider";
 import Contact from './pages/contact/Contact';
 import Doctors from "./pages/doctors/Doctors";
-import Login from "./pages/login/Login";
 import NotFound from "./pages/notFound/NotFound";
 import Register from "./pages/register/Register";
 import ServicesDetails from "./pages/services-details/ServicesDetails";
@@ -29,18 +28,18 @@ function App() {
           <Route path="/doctors">
             <Doctors />
           </Route>
-          <Route path="/services">
+          <PrivateRoute path="/services">
             <Services />
-          </Route>
-          <Route path="/service/:serviceId">
+          </PrivateRoute>
+          <PrivateRoute path="/service/:serviceId">
             <ServicesDetails />
-          </Route>
+          </PrivateRoute>
           <PrivateRoute path="/contact">
             <Contact />
           </PrivateRoute>
-          <Route path="/login">
+          {/* <Route path="/login">
             <Login />
-          </Route>
+          </Route> */}
           <Route path="/register">
             <Register />
           </Route>
